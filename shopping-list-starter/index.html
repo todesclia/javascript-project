@@ -18,16 +18,9 @@
                 <ul id="shopping-list-items"></ul>
                 <div id="inputs">
                     <div id="new-item-input">
-                        <input
-                            id="new-item-text"
-                            type="text"
-                            placeholder="Milk"
-                        />
-                        <input
-                            id="new-item-button"
-                            type="button"
-                            value="Submit"
-                        />
+                        <input type="text" id="new-item-text" placeholder="Add a new item" />
+                        <input type="button" id="new-item-button" value="Submit" onclick="addItem()" />
+                        <input type="button" id="clear-list-button" value="clear" onclick="clearList()" />
                     </div>
                 </div>
             </div>
