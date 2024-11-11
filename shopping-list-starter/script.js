@@ -1,5 +1,4 @@
 let shoppingListItems = ["milk", "eggs", "bread"];
-updateItems();
 
 function addItem () {
     let itemInput = document.getElementById("new-item-text");
@@ -24,3 +23,5 @@ function clearList () {
     shoppingListItems = [];
     updateItems();
 };
+
+updateItems();
