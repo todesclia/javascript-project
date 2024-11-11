@@ -15,7 +15,7 @@ li {
     align-items: center;
     border: 2px solid #b30049;
     padding: 2px;
-    margin: 2px;
+    margin: 10px 0;
     color: #070d0d;
     font-size: 1.2rem;
 }
@@ -51,4 +51,9 @@ input[type="button"] {
 
 .complete {
     text-decoration: line-through;
+}
+
+.important {
+    color: red;
+    font-weight: bold;
 }
